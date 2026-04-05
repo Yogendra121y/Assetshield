@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AssetShield AI icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a44f5"/>
+      <stop offset="100%" stop-color="#3d6aff"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dbe7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M32 12l16 6v12c0 10-6.3 18.7-16 22-9.7-3.3-16-12-16-22V18l16-6z" fill="url(#shield)"/>
+  <path d="M32 20l9 3.4v7.2c0 6.4-3.8 12.1-9 14.3-5.2-2.2-9-7.9-9-14.3v-7.2L32 20z" fill="#1a44f5"/>
+  <path d="M27.5 32h9M32 27.5v9" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+</svg>

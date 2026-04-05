@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+.venv/
+
+# build outputs
+dist/
+build/
+coverage/
+
+# env and secrets
+.env
+.env.*
+!.env.example
+service-account.json
+*.pem
+*.key
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
