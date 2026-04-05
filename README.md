@@ -6,6 +6,28 @@ Vigil is a production-ready MVP that allows sports organizations to upload digit
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🏗️ Architecture
 
 ```
@@ -37,6 +59,23 @@ Vigil is a production-ready MVP that allows sports organizations to upload digit
 ```
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🚀 Quick Start
 
@@ -129,6 +168,31 @@ The Vite dev server proxies `/api/*` → `http://localhost:5000/*` automatically
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 📁 Project Structure
 
 ```
@@ -193,6 +257,27 @@ vigil-dap/
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🔌 API Reference
 
 | Method | Endpoint        | Auth | Description                        |
@@ -208,6 +293,33 @@ vigil-dap/
 | GET    | `/health`       | No   | Cloud Run health check             |
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🤖 AI Pipeline
 
@@ -278,6 +390,29 @@ python tools/create_augmented_dataset.py --input ./seed_images --output ./sample
 ```
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## ☁️ Cloud Run Deployment
 
@@ -365,6 +500,20 @@ assets/{assetId}
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🏆 Hackathon Notes
 
 - **Real-time updates** — Firestore `onSnapshot` listener updates the dashboard live as analysis completes
@@ -375,6 +524,25 @@ assets/{assetId}
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 *Built by Team Vigil for the H2S Solution Challenge 2026*
-#   A s s e t s h i e l d  
+#   A s s e t s h i e l d 
+ 
  
