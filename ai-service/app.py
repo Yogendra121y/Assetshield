@@ -170,6 +170,9 @@ def index_rebuild(req: IndexRequest) -> Dict[str, Any]:
 @app.get("/index/stats")
 def index_stats() -> Dict[str, Any]:
     return get_dataset_index_stats()
+@app.get("/")
+def home():
+    return {"message": "AI Service Running"}
 
 
 if __name__ == "__main__":
