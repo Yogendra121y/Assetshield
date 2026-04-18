@@ -175,5 +175,5 @@ def index_stats() -> Dict[str, Any]:
 if __name__ == "__main__":
     import uvicorn
 
-    port = int(os.getenv("AI_SERVICE_PORT", "8000"))
+    port = int(os.getenv("AI_SERVICE_PORT", "8080"))
     uvicorn.run("app:app", host="0.0.0.0", port=port, reload=False)
