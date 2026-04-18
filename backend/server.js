@@ -49,6 +49,9 @@ app.use('/stats',   statsRoutes)
 
 // Health check (used by Cloud Run)
 app.get('/health', (_, res) => res.json({ status: 'ok', ts: new Date().toISOString() }))
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
 
 // ── Global Error Handler ─────────────────────────────────────────────────────
 app.use((err, req, res, next) => {
